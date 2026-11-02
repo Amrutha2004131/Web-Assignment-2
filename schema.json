@@ -1,0 +1,45 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "GEC Store",
+    "type": "object",
+
+    "properties": {
+        "graph": {
+            "type": "array",
+
+            "items": {
+                "type": "object",
+
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+
+                    "type": {
+                        "type": "string"
+                    },
+
+                    "name": {
+                        "type": "string"
+                    },
+
+                    "category": {
+                        "type": "string"
+                    },
+
+                    "description": {
+                        "type": "string"
+                    },
+
+                    "price": {
+                        "type": "number"
+                    },
+
+                    "stock": {
+                        "type": "integer"
+                    }
+                }
+            }
+        }
+    }
+}
